@@ -171,3 +171,29 @@ main section{
 .resume-download{
     margin-top: 50px;
 }
+
+/* footer styles */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+ .footer-description{
+    color: #757575;
+     font-size: 16px;
+    font-weight: 100;
+    margin-top: 20px;
+ }
+ .footer-column{
+    width: 50%;
+ }
+ footer input[type="text"], input[type="email"], textarea {
+    display: block;
+    border-radius: 5px;
+    background-color: white;
+    height: 64px;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+  }
